@@ -1,0 +1,164 @@
+body, ul, li, a {
+    background: #fff;
+    color: rgba(0,0,0,0.87);
+    font-size: 13px;
+    font-family: HelveticaNeue,'Noto Naskh Arabic UI',Arial,sans-serif;
+}
+/* Import 'Noto Naskh Arabic UI' font from google fonts library */
+@font-face {
+    font-family: 'Noto Naskh Arabic UI';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Noto Naskh Arabic UI Regular'), local('NotoNaskhArabicUI'), url(https://fonts.gstatic.com/s/notonaskharabicui/v7/9XU6lIJqkU_PWDHIY3lkVjo6pdPHBQyThjcnXyDnnw.woff2) format('woff2');
+    unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+204F, U+2E41, U+FB50-FDFF, U+FE80-FEFC;
+}
+/* Header Start */
+.header {
+    padding: 0 30px;
+    margin-top: 17px;
+}
+
+.header ul {
+    list-style: none;
+    overflow: hidden;
+}
+.header ul li {
+    float: left;
+    padding: 0px 15px 0px 0px;
+    font-size: 13px;
+    line-height: 24px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.header ul li:hover {
+    cursor: pointer;
+}
+
+#Email-Picture {
+    width: 32px;
+    height: 35px;
+    border-radius: 50%;
+}
+#grid-icon {
+    width: 17px;
+    height: 17px;
+    opacity: 0.55;
+}
+#grid-icon:hover {
+    opacity: 1;
+}
+.header ul .li-grid {
+    padding-left:5px;
+    text-align: center;
+}
+/* Header End */
+/* Start of the Main Body */
+.container .logo { /*Google Logo */
+    margin: 89 0 0;
+    padding-top: 109px;
+    padding-bottom: 27px;
+}
+.container .logo img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+.search {
+    display: block;
+    text-align: center;
+    height: 118px;
+    margin: 0 271.5px;
+
+}
+.search-form {
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.search-bar {
+    font: 16px arial,sans-serif;
+    line-height: 34px;
+    height: 34px !important;
+    width: 474px;
+    text-align: right;
+    padding: 5px 16px 0 8px;
+    padding-right: 20px;
+    border: none;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    height: 44px;
+    margin: 0 auto;
+}
+.buttons-div {
+    padding: 18px 0 0;
+}
+button {
+    margin: 11px 4px;
+    padding: 0 16px;
+    height: 36px;
+    line-height: 27px;
+    background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+    -webkit-border-radius: 2px;
+    -webkit-user-select: none;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    cursor: pointer;
+    font-family: HelveticaNeue,'Noto Naskh Arabic UI',Arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    min-width: 54px;
+    padding: 0 16px;
+    text-align: center;
+}
+.container-footer {
+    text-align: center;
+    margin: 24px 0 24px;
+}
+.container-footer a {
+    text-decoration: none;
+    color: #00f;
+}
+/* End of the Main Body */
+
+/* Footer Start */
+.footer {
+    background: #f2f2f2;
+    line-height: 40px;
+    min-width: 980px;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    direction: rtl;
+}
+.country-nav {
+    padding-right: 30px;
+    color: rgba(0,0,0,.54);
+    border-top: 1px solid #e4e4e4;
+    font-size: 15px;
+    line-height: 40px;
+}
+.footer-nav {
+    overflow: hidden;
+    border-top: 1px solid #e4e4e4;
+    padding-left: 30px;
+    padding-right: 3px;
+}
+.footer-nav a {
+    float: left;
+    text-align: center;
+    padding: 0 27px 0 0;
+    text-decoration: none;
+    display: inline-block;
+    color: #5f6368;
+    background: #f2f2f2;
+  }
+  .right-nav {
+    float: right;
+    padding: 0 -27px;
+  }
+/* Footer End */
